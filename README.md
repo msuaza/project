@@ -28,15 +28,17 @@ Install the required dependencies using pip:
 
 ```bash
 pip install -r requirements.txt
-```bash
+```
 
 Set up your environment variables by creating a .env file in the project directory. Include the following variables:
 plaintext
 
+```
 DBNAME=<your_dbname>
 USER=<your_username>
 PASSWORD=<your_password>
 HOST=<your_host>
+```
 
 Run the Flask web application:
 
